@@ -1,0 +1,194 @@
+body {
+    background-color: #ede9e6;
+    padding-top: 10px;
+    font-family:sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*   start of left-column*/
+.left-column {
+    width: 32%;
+
+
+}
+
+.left-column i {
+    color: #009688;
+    padding-right: 5px;
+
+}
+
+.container .left-column .section1 .img {
+    width: 100%;
+    height: 210px;
+    background-image: url(../images/hussien.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: relative;
+    margin-bottom: 0;
+    /* display: flex; */
+}
+
+.container .left-column .section1 .img::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #00000038;
+}
+
+.container .left-column .section1 .img h2 {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+}
+
+.container .left-column .section1 .contactInfo {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+.container .left-column .section1 .contactInfo i {
+    padding-right: 13px;
+}
+
+.container .left-column .section1 .contactInfo .p-ismailia {
+    margin-top: 0;
+
+}
+.container .left-column .section1 .contactInfo .link_hover  {
+    text-decoration: none;
+    color: black;
+}
+.container .left-column .section1 .contactInfo .link_hover:hover {
+    color:darkslateblue;
+}
+
+.container .left-column .section1 .contactInfo progress {
+    accent-color: #009688;
+    height: 30px;
+    width: 250px;
+}
+
+
+
+/*   end of left-column*/
+
+/*   start of right-column*/
+.container .right-column {
+    width: 64%;
+    /* background-color: #fff; */
+    /* margin-top: 0;
+    padding: 15px; */
+}
+
+.right-column i {
+    color: #009688;
+    padding-right: 10px;
+}
+
+.right-column .topSection {
+    background-color: #fff;
+    padding: 8px;
+}
+
+.right-column .topSection .experience h4 {
+    color: #8d8d8d;
+}
+
+.right-column .topSection .experience p {
+    color: #009688;
+}
+
+.right-column .topSection .experience .summary p {
+    color: black;
+    /* font-weight: bold; */
+}
+
+.right-column .education {
+    background-color: #fff;
+    padding: 0 15px 15px 15px;
+
+}
+.right-column .education h2 {
+    padding-top: 25px;
+}
+.right-column .education .Academy .edu-date {
+    color: #009688;
+}
+
+.right-column .education .certification {
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-column .education .certification p {
+    margin: 6px 0 0;
+    padding: 0;
+}
+
+.right-column .education .certification h2 {
+    width: 100%;
+    padding:15px 0;
+    margin: 0px;
+    
+}
+.right-column .education .certification h4 {
+    margin-bottom: 0;
+}
+
+.right-column .education .certification .cert-1 {
+    width: 45%;
+}
+
+.right-column .education .certification .cert-2 {
+    width: 45%;
+}
+
+.right-column .education .certification .cert-3 {
+    width: 45%;
+}
+
+/*   end of right-column*/
+
+/*   Footer  */
+
+footer {
+    background-color: #009688;
+    color: #fff;
+    height: 170px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+footer p {
+    font-size: 19px;
+}
+
+footer a {
+    color: #fff;
+    margin: 4px;
+    
+}
+footer a:hover {
+    color:darkslateblue;
+}
+footer a i {
+    font-size: 22px;
+}
+footer  #Powered a {
+    text-decoration: none;
+    
+}
+footer  #Powered a:hover {
+    color:darkslateblue;
+}
